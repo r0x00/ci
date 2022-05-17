@@ -4,4 +4,7 @@ WORKDIR /app
 
 COPY . .
 
+RUN npm init
+
 RUN npm run test
+
